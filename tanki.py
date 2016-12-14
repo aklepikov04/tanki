@@ -13,6 +13,7 @@ lol = vehicle.vehicle()
 lol.set_handlers("Up", "Down", "Left", "Right")
 lol.color("red")
 
+# Some debug output
 print(lol.color_finder)
 if lol.tur.pos() - mic.tur.pos() <= (5,5):
      lol.color_finder += 1
